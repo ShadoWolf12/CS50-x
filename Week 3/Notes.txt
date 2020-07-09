@@ -1,0 +1,103 @@
+Watch video on big O - https://youtu.be/v4cd1O4zkGw 
+Watch video on each sorting algorithm
+Bubble sort - https://youtu.be/6Gv8vg0kcHc 
+Selection sort - https://youtu.be/g-PGLbMth_g 
+Merge sort - https://youtu.be/yzkzQ7oZwIE 
+Write out an explanation on each.
+The bubble sort algorithm goes through a set of values and for every value checks if the order is correct. If the order is not correct, it swaps the adjacent numbers that are incorrect and puts them in the right order. It keeps going from left to right then starts again. It keeps doing this until the set of numbers is in the correct order. This example organizes them from least to greatest.
+Example A(13 steps total):
+3269420
+2369420
+2364920
+2364290
+2364209(end of first loop)
+2346209
+2342609
+2342069(end of second loop)
+2324069
+2320469(end of third loop)
+2230469
+2203469(end of fourth loop)
+2023469(end of fifth loop)
+0223469( end of final loop)
+Example B(30 steps total):
+697245031
+679245031
+672945031
+672495031
+672459031
+672450931
+672450391
+672450319(end of first loop)
+627450319
+624750319
+624570319
+624507319
+624503719
+624503179(end of second loop)
+264503179
+246503179
+245603179
+245063179
+245036179
+245031679(end of third loop)
+240531679
+240351679
+240315679(end of fourth loop)
+204315679
+203415679
+203145679(end of fifth loop)
+023145679
+021345679(end of sixth loop)
+012345679(end of final loop)
+Example C(3 steps total):
+230
+203
+023
+Selection sorts go through a set of values and moves each value to its correct place in the set of values so that the set of values is organized into the correct (varies based on what you want) order. This example organizes them from least to greatest.
+Example A(4 steps total):
+3269420
+0269423
+0229463
+0223469
+Example B(5 steps total):
+697245031
+097245631
+017245639
+012745639
+012345679
+Example C(3 steps total):
+230
+032
+023
+Merge Sorts split the set of values into 2 groups and and organises each group and then combines the groups and organises them. This example organizes them from least to greatest.
+Example A(5 steps total):
+3269420
+3269|420
+2369|024
+2369024
+0223469
+Example B(5 steps total):
+697245031
+69724|5031
+24769|0135
+247690135
+012345679
+Example C(5 steps):
+230
+2|30
+2|03
+203
+023
+
+ Record video explaining sorting algorithms(use visual concepts to explain).
+Script:
+An algorithm is a method of doing something. For example, say you want a message from you right now to be accessible a month from now, there are many different algorithms you can use to do that. You can write the message on paper, you can record it in a google doc, you can email it to someone, and many more algorithms. 
+
+Sort algorithms organize sets of values. While many different types of values can be sorted using sort algorithms, I will use numbers in my examples, simply because they are easier to use. There are many different types of sort algorithms, but the 3 I am going to talk about are bubble sorts, selection sorts, and merge sorts. 
+
+Bubble sorts organize information checking left to right and swapping any two values that have no value between them that are out of order. This happens again and again until the information is organized correctly. Naturally, this takes  a very long time for larger sets of values, but for smaller sets of values it’s about average speed.
+
+Next, we have selection sorts go through the set of values and moves slot to slot swapping each value that belongs in that slot and the one that is already there. If the correct one is already there, then the algorithm moves onto the next slot. Selection sorts aren’t necessarily super fast at any size set of values, but most of the time selection sorts have a pretty average speed.
+
+ Lastly, we have merge sorts. Merge sorts split the set of values into 2 equal groups(if there are an odd number of values, one group has an extra value) and sort each individual group then combine the groups. Merge sorts are quicker than average on larger sets of values, but are slower than average on smaller sets of values.
