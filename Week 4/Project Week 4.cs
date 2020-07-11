@@ -18,11 +18,23 @@ int main(void) {
     for(; j <= 4; j++) {
       printf("Enter student %d's grade:\n", j+1);
       scanf("%d", student[i].grade);
+	  
+	  
   }
-  
+  printf("Would you like to sort the array or just display them as they are?\n");
+  printf("Press 1 to sort start sorting the array, and press anything else to simply print it out.\n");
+  int con;
+  scanf("%s", con);
+  if(con = 1){
+	  break
+  }
+  else{
+	  int z = 0;
+	  for(; z <= 4) {
+	  printf("Book %d id=%d\n",z+1,student[z].name);
+       printf("Book %d Name=%s\n",z+1,student[z].grade);
+	   }
+  }
   return 0;
  }
 }
-
- 
-
