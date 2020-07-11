@@ -2,8 +2,10 @@
 #include <cs50.h> 
 #include <string.h>
 #include <stdlib.h>
-typedef struct person {char[] name, int grade}
- person;
+typedef struct person {
+    char name; 
+    int grade;
+}person;
 int main(void) {
   while (true){
     int stopper = 5;
@@ -24,15 +26,16 @@ int main(void) {
   printf("Would you like to sort the array or just display them as they are?\n");
   printf("Press 1 to sort start sorting the array, and press anything else to simply print it out.\n");
   int con;
-  scanf("%s", con);
+  scanf("%d", con);
   if(con = 1){
-	  break
+	  break;
   }
   else{
 	  int z = 0;
-	  for(; z <= 4) {
-	  printf("Book %d id=%d\n",z+1,student[z].name);
-       printf("Book %d Name=%s\n",z+1,student[z].grade);
+	  for(; z <= 4;) {
+	  printf("Student %d name is %s\n",z+1,student[z].name);
+       printf(" Their grade is %d\n",z+1,student[z].grade);
+       break;
 	   }
   }
   return 0;
