@@ -7,6 +7,7 @@ typedef struct person {
     int grade;
 }person;
 int main(void) {
+  printf("Welcome to the Gradebook. You can record 5 students names and grades here.\n")
   while (true){
     int stopper = 5;
     person student[4];
