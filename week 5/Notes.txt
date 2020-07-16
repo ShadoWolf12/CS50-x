@@ -1,0 +1,100 @@
+First, we review malloc, which allows for you to move all the contents from one array to another.
+Then we learn about realloc, which reallocates(hence the name, realloc) memory.
+#include<stdlib.h>
+#include<stdio.h>
+int main(void)
+{
+    int *group = malloc(3 * sizeof(int));
+    if (group == NULL)
+    {
+        return 1;
+    }
+
+    
+		group[0] = 1;
+    group[1] = 2;
+    group[2] = 3;
+    int *tmp = realloc(list, 4 * sizeof(int));
+    if (tmp == NULL)
+    {
+        return 1;
+    }
+    list = tmp;
+    list[3] = 4;
+    for (int i = 0; i < 4; i++)
+    {
+        printf("%i\n", group[i]);
+    }
+
+    free(group);
+}
+
+After that we start talking in more detail about data structures.
+The 3 things we need to create a data structure that we know already are: 
+- struct(to create the custom data types)
+-. (to accesses the specific properties within the structure)
+- *( to go where a pointer is pointing to it within the structure)
+Then we start talking about linked lists. A linked list is a data structure that each value within the structure to the next value until the final value, which is equal to null.
+It's important to have a pointer back to the beginning in linked lists.
+In psudocode, it would be like this:
+
+structure datanode
+datanode0 = 0 and 1 = datanode1
+datanode1 = 1 and 2 = datanode2
+datanode2 = 2 and 3 = datanode3 etc.
+
+Take note that you need to start with an empty structure so you can use the pointer to the beginning(which's value is null).
+To add something into the array you need create a slot for the node to function and set it's values.
+Once we do that, the code can function properly.
+After that, we start talking about trees. No, not the leafy green ones outside, the type of data structure.
+Tree data structures are structures with each individual node points to 2 different nodes.
+An example would look like this:
+								   10
+							8         12
+						7   9    11    13
+
+Importnant things to note about this:
+- This is a binary search tree as there are 2 main paths that are followed.
+-There are multiple different paths, so if you were to implement a linked list you would have to follow a specific path.
+-Faster than having 2 average linked lists.
+
+A hash table is a struct with (basically) constant search time. Hash Tables are a combination of an array and a linked list that use hash(hence the name, hash tables) functions to organize them.
+For example, if one wanted to sort all the characters in my hero academia's 1-A class alphabetically by last name in a hash table it would look like this.
+Aoyama ----> Ashido -----> Asui
+Bakugo
+Hakugare
+Iida
+Jiro
+Kaminari ----> Kirishima ----> Koda
+Midoriya ----> Mineta
+Ojiro
+Sato ----> Sero ----> Shoji
+Todoroki ----> Tokoyami
+Yaoyorozu
+Important things to note about this:
+- This can add and organize values really quickly due to random access in arrays.
+- Sometimes multiple values belong to the same area(see letters A, K, S, T) and are stored horizontally. When this happens, it's called a collisions.
+
+After that, we have tries, which pick out individual values in an array until it has enough values.
+While it does have a set amount of time used for a certain amount values, it is very memory intensive.
+For example say someone wanted to print 69420 using trie. 
+012345[6]789
+012345678[9]
+0123[4]56789
+01[2]3456789
+[0]123456789
+
+A abstract data structure is when you use a combination of arrays, linked lists, hashtables, and tries to solve a problem.
+An example of this is a queue. Queues use hash tables to organize values, tries to get specific values, store those values in specific orders and ensure that each value appears after the previous one.
+Moreover, Tries can be used to remove a value from the linked lists. This one of many types of abstract data structures, which includes but isn't limited to stacks, dictionaries, and the binary trees from before.
+
+
+
+
+
+
+
+
+
+
+
