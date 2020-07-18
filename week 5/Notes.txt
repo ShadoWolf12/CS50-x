@@ -87,8 +87,11 @@ For example say someone wanted to print 69420 using trie.
 A abstract data structure is when you use a combination of arrays, linked lists, hashtables, and tries to solve a problem.
 An example of this is a queue. Queues use hash tables to organize values, tries to get specific values, store those values in specific orders and ensure that each value appears after the previous one.
 Moreover, Tries can be used to remove a value from the linked lists. This one of many types of abstract data structures, which includes but isn't limited to stacks, dictionaries, and the binary trees from before.
-
-
+https://c.happycodings.com/data-structures/code9.html 
+Selection Sorts by default.
+Resize array on insert.
+Display results
+Give user choice on how it's sorted.
 
 
 
