@@ -3,19 +3,19 @@
 #include <string.h>
 #include <stdlib.h>
 typedef struct person {
-    char name; 
+    char[] nameFirst; 
     int grade;
-}person;
+    char[] nameLast;
+};
 int main(void) {
   printf("Welcome to the Gradebook. You can record 5 students names and grades here.\n")
   while (true){
-    int stopper = 5;
     person student[4];
     int i = 0;
     int j = 0;
     for(; i <= 4; i++) {
       printf("Enter student # %d:\n", i+1);
-      scanf("%s", student[i].name);       
+      scanf("%s", student[i].namefirst);       
 
     }
     for(; j <= 4; j++) {
@@ -36,6 +36,7 @@ int main(void) {
 	  for(; z <= 4;) {
 	  printf("Student %d name is %s\n",z+1,student[z].name);
        printf(" Their grade is %d\n",z+1,student[z].grade);
+       
        break;
 	   }
   }
