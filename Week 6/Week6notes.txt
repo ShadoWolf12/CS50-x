@@ -23,4 +23,11 @@ We still can do lots of things with python in spite of that, such as:
   sleep(69)
   print ("Nice.")
 and so much more! 
-One really nice thing we can do is create boolean statements.
+Some of the data types you can use include:
+-Booleans(ie. either true or false)
+-Integers(numbers)
+-Floats(numbers with decimals)
+-Strings(Groups of letters)
+-Ranges(Groups of numbers )
+-lists(groups of changable values)
+and much more! 
