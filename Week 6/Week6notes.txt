@@ -1,0 +1,22 @@
+We have a new coding language, python. It's syntax is really easy-to-use. Compare the syntax of it's hello world program to c's.
+python:
+print("Hello world!")
+C:
+int main()
+{
+printf ("Hello world!");
+}
+However, this simplicity comes at a price: python programs need interpretation to actually run. 
+You might need C to make a python converter. To actually run that hello world program we'd need to save it then run it on a python compiler.
+We still can do lots of things with python in spite of that, such as:
+-Collect input from the user:
+  person = get_string("Who's that?")
+  print("You're weird," + person)
+-Create conditional statements: 
+  var = get_string("Say something.")
+  if var == "Something"
+   print("good job.")
+  else
+   print("BAKAAAAAAAAAAAAAAAAAAAAAAAA!)
+and so much more! 
+One really nice thing we can do is create boolean statements.
