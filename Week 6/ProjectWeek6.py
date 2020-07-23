@@ -1,12 +1,20 @@
-import numpy as np
 print("Hello, and welcome,to the virtual gradebook.")
 i = 1
 while i > 0:
-    numgrades= input("How many grades would you like to store?")
+    print("How many student's grades would you like to store?\n")
+    numgrades= int(input())
     if numgrades.isdigit():
-        students = np.array([a,b],[c,d])
-        grades = np.array([1,2], [3,4])
-        np.append(students,grades)
+        j = 0
+        while j < numgrades:
+            students = []
+            grades = []
+            print("What's this student's name?")
+            newkid = input()
+            students.append(newkid)
+            print("What grade did they get?")
+            newgrade = int(int())
+            grades.append(newgrade)
+            j += 1
+            
     else:
-        print("That wasn't a number!You scum!")
-        i -1
+        print("That wasn't a valid number!You scum!\n")
