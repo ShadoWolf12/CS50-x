@@ -31,3 +31,12 @@ Some of the data types you can use include:
 -Ranges(Groups of numbers )
 -lists(groups of changable values)
 and much more! 
+There are also directories for python. However, you have to invoke every function out of a directory to use that function. 
+For example:
+from cs50 import get_int
+oof = get_int("How many letters are in your name?")
+print ("Wow, {oof} letters!)
+
+
+
+
