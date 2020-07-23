@@ -18,5 +18,9 @@ We still can do lots of things with python in spite of that, such as:
    print("good job.")
   else
    print("BAKAAAAAAAAAAAAAAAAAAAAAAAA!)
+-Pause your code for awhile. 
+  print("Can we just relax?")
+  sleep(69)
+  print ("Nice.")
 and so much more! 
 One really nice thing we can do is create boolean statements.
