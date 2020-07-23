@@ -35,8 +35,18 @@ There are also directories for python. However, you have to invoke every functio
 For example:
 from cs50 import get_int
 oof = get_int("How many letters are in your name?")
-print ("Wow, {oof} letters!)
+print ("Wow, {oof} letters!")
+One really nice thing that's easy in python but hard to do in c is create and call functions. 
+In c, you always run one function to start,  the main. In python, you don't need a main.
+In python you can just run some code, as illustrated in the hello world programs.
+In python, creating external functions is relatively easy.
+For example:
+def(main):
+for I in range(3):
+yeet()
 
+def (yeet): 
+print ("Yeet")
 
-
+main()
 
