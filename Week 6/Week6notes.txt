@@ -49,4 +49,16 @@ def (yeet):
 print ("Yeet")
 
 main()
+In the notes it says there's no do-while loops in python, but my project has do-while loops that work, so it confused me.
+Arrays are very easy-to-use in python. .append is used for adding values to array.
+for example:
+Friends = []
+Friends.append(Bob)
+Friends.append(Billy)
+Friends.append(Jimmy)
+print ("Wow, you have{len(Friends)}")
+
+
+
+
 
