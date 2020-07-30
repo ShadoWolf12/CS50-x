@@ -60,3 +60,5 @@ primaryTitle, the title, like The Crown
 startYear, the year it was released, like 2016
 genres, a comma-separated list of genres, like Drama,History
 
+You have to use wget to get it, but after that use gunzip to call it.
+
