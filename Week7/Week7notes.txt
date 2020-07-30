@@ -1,0 +1,3 @@
+We can open spreadsheets in python.
+We can access each title and organize them as well.
+We can also use a new coding language called SQL,
