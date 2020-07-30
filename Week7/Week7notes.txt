@@ -34,5 +34,19 @@ SQL has many data types:
   -char(n), for an exact number of characters
   -var char(n), for a variable number of characters, up to a certain limit
   -text
-  
+
+There are also functions for calculations as well.
+AVG
+COUNT
+DISTINCT, for getting distinct values without duplicates
+MAX
+MIN
+
+There are also some functions for combining:
+WHERE, matching on some strict condition
+LIKE, matching on substrings for text
+LIMIT
+GROUP BY
+ORDER BY
+JOIN, combining data from multiple tables
   
