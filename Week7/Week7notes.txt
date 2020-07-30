@@ -49,4 +49,7 @@ LIMIT
 GROUP BY
 ORDER BY
 JOIN, combining data from multiple tables
-  
+
+For example on how use SQL, IMDB, or Internet Movie Database, has datasets available for download. 
+
+
