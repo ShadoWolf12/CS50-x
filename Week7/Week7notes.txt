@@ -52,4 +52,11 @@ JOIN, combining data from multiple tables
 
 For example on how use SQL, IMDB, or Internet Movie Database, has datasets available for download. 
 
+For example, we can download title.basics.tsv.gz, which will contain basic data about titles. 
+For example, for the crown it would be like this:
+tconst, a identifier for each title, like tt4786824
+titleType, the type of the title, like tvSeries
+primaryTitle, the title, like The Crown
+startYear, the year it was released, like 2016
+genres, a comma-separated list of genres, like Drama,History
 
