@@ -1,3 +1,38 @@
 We can open spreadsheets in python.
 We can access each title and organize them as well.
-We can also use a new coding language called SQL,
+We can also use a new coding language called SQL, which is good for organizing stuff.
+You only need 4 commands to work with data:
+-CREATE 
+-READ
+-UPDATE 
+-DELETE
+In SQL these commands are:
+-INSERT 
+-SELECT
+-UPDATE
+-DELETE
+So, in order to make a table the code would look like this:
+CREATE TABLE(column data type)
+
+SQL has many data types:
+-Blob short for binary large object 
+-INTEGER
+   -bigint
+   -integer
+   -smallint
+-NUMERIC
+  -boolean
+  -date
+  -datetime
+  -numeric(scale,precision) which solves floating-point imprecision by using as many bits as needed, for each digit before and after the decimal point
+  -time
+  -timestamp 
+-REAL
+  -real, for floating-point values
+  -double precision, with more bits 
+-TEXT
+  -char(n), for an exact number of characters
+  -var char(n), for a variable number of characters, up to a certain limit
+  -text
+  
+  
