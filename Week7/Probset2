@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    char encryText[128];
+    int letters;
+    printf("Hello Deku scrubs. How many letters would you like to incrypt?\n");
+    scanf("%d", &letters );
+    int i;
+    for(i=0,i < letters, i+++){
+     printf("Please input the %d letter", i);
+     char firstLetter;
+     scanf("%s",firstLetter)
+     strncat(encrytext,&firstLetter, 1);
+  
+}
