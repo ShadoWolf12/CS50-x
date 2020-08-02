@@ -7,10 +7,12 @@ int main()
     printf("Hello Deku scrubs. How many letters would you like to incrypt?\n");
     scanf("%d", &letters );
     int i;
-    for(i=0,i < letters, i+++){
+    i = 0;
+    while(i < letters){
      printf("Please input the %d letter", i);
      char firstLetter;
-     scanf("%s",firstLetter)
-     strncat(encrytext,&firstLetter, 1);
+     scanf("%s",firstLetter);
+     strncat(encryText,&firstLetter, 1);
+     i+=1
   
 }
