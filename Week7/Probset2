@@ -1,18 +1,37 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-    char encryText[128];
-    int letters;
-    printf("Hello Deku scrubs. How many letters would you like to incrypt?\n");
-    scanf("%d", &letters );
-    int i;
-    i = 0;
-    while(i < letters){
-     printf("Please input the %d letter", i);
-     char firstLetter;
-     scanf("%s",firstLetter);
-     strncat(encryText,&firstLetter, 1);
-     i+=1
-  
+  char encryText[128];
+  int letters;
+  printf("Hello Deku scrubs. How many words would you like to incrypt?\n");
+  scanf("%d", &letters );
+  int i;
+  i = 0;
+  while(i != letters){
+  printf("Please input word #%d\n", i+1);
+  scanf("%s",encryText);
+  encryText[i] - '0';
+  i++;
+  }
+  printf("Would you want to use algorithm one or algorithm two?\n");
+  int checker;
+  scanf("%d", &checker);
+  if(checker == 1){
+    for (i=0; i !=0; i++)
+    {  
+      encryText[i] = i * encryText[i];
+    } 
+    printf("ooof");
+  else if(checker == 2)
+  {
+    printf("Yeet");
+  }
+  else
+  {
+    printf("errrrmmm, I'm just gonna ignore that.");
+  }
+  return 0;
+  }
 }
